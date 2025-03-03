@@ -1,100 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio</title>
-    <link rel="stylesheet" href="styles.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-  </head>
-  <!-- Зміст (основна частина документу)  -->
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">LIFESTYLE</a></li>
-          <li><a href="">PHOTODIARY</a></li>
-          <li><a href="">MUSIC</a></li>
-          <li><a href="">TRAVEL</a></li>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foto-blog</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<!-- Зміст (основна частина документу)  -->
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="">LIFESTYLE</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">PHOTODIARY</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">MUSIC</a>
+          </li>
+          <li class="header-link" class="header-item">
+            <a href="">TRAVEL</a>
+          </li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <section>
-        <article>
-          <img src="photos/photo-one.jpg" alt=" Man at the Concert" />
-          <p>LIFESTYLE</p>
-          <h2 class="title-head">More than just a music festival</h2>
-          <p class="text">
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero-container">
+        <ul class="hero-list">
+        <li class="hero-item">
+          <article class="fotoblog-article">
+            <img class="fotoblog-image" src="photos/photo-one.jpg" alt=" Man at the Concert" />
+            <p class="fotoblog-subtitle">LIFESTYLE</p>
+            <h3 class="fotoblog-title">More than just a music festival</h3>
+            <p class="fotoblog-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+              dolorem ea harum excepturi consequatur, nihil voluptates cum
+              provident neque saepe!
+            </p>
+          </article>
+        </li>
+        <li class="hero-item">
+        <article class="foto-blog">
+          <img class="fotoblog-image" src="photos/photo-two.jpg" alt="Nice looking woman standing next to the lake" />
+          <p class="fotoblog-subtitle">LIFESTYLE</p>
+          <h3 class="fotoblog-title">Life tastes better with coffee</h3>
+          <p class="fotoblog-desc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img
-            src="photos/photo-two.jpg"
-            alt="Nice looking woman standing next to the lake"
-          />
-          <p>LIFESTYLE</p>
-          <h3>Life tastes better with coffee</h3>
-          <p>
+      </li>
+        <li class="hero-item">
+        <article class="foto-blog">
+          <img class="fotoblog-image" src="photos/photo-three.jpg" alt="Hot coffee at cozy bed" />
+          <p class="fotoblog-subtitle">LIFESTYLE</p>
+          <h3 class="fotoblog-title">American dream</h3>
+          <p class="fotoblog-desc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img src="photos/photo-three.jpg" alt="Hot coffee at cozy bed" />
-          <p>LIFESTYLE</p>
-          <h3>American dream</h3>
-          <p>
+      </li>
+        <li class="hero-item">
+        <article class="foto-blog">
+          <img class="fotoblog-image" src="photos/photo-four.jpg" alt="Cold and Scary Alps Road" />
+          <p class="fotoblog-subtitle">LIFESTYLE</p>
+          <h3 class="fotoblog-title">A day exploring the Alps</h3>
+          <p class="fotoblog-desc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img src="photos/photo-four.jpg" alt="Cold and Scary Alps Road" />
-          <p>LIFESTYLE</p>
-          <h3>A day exploring the Alps</h3>
-          <p>
+      </li>
+        <li class="hero-item">
+        <article class="foto-blog">
+          <img class="fotoblog-image" src="photos/photo-five.jpg" alt="2 Happy woman behind 6the golden gate bridge" />
+          <p class="fotoblog-subtitle">LIFESTYLE</p>
+          <h3 class="fotoblog-title">Top 10 song for running</h3>
+          <p class="fotoblog-desc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img
-            src="photos/photo-five.jpg"
-            alt="2 Happy woman behind 6the golden gate bridge"
-          />
-          <p>LIFESTYLE</p>
-          <h3>Top 10 song for running</h3>
-          <p>
+      </li>
+        <li class="hero-item">
+        <article class="foto-blog">
+          <img class="fotoblog-image" src="photos/photo-six.jpg" alt="Bay standing in the cold forest in clothes" />
+          <p class="fotoblog-subtitle">LIFESTYLE</p>
+          <h3 class="fotoblog-title">Cold winter days</h3>
+          <p class="fotoblog-desc">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
             dolorem ea harum excepturi consequatur, nihil voluptates cum
             provident neque saepe!
           </p>
         </article>
-        <article>
-          <img src="photos/photo-six.jpg" alt="Bay standing in the cold forest in clothes" />
-          <p>LIFESTYLE</p>
-          <h3>Cold winter days</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-            dolorem ea harum excepturi consequatur, nihil voluptates cum
-            provident neque saepe!
-          </p>
-        </article>
-        <button type="button">Load more</button>
-      </section>
-    </main>
-    <footer>”Підвал” сайту</footer>
+      </li>
 
-    <!-- Підключаємо скрипти  -->
-    <script src="js/main.js"></script>
+        </ul>
+        <button class="hero-btn" type="button">Load more</button>
+      </div>
+    </section>
+  </main>
+  <footer>”Підвал” сайту</footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
