@@ -46,3 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: var(--link-color);
+}
+
+a {
+    text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

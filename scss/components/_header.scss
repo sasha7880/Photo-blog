@@ -1,0 +1,35 @@
+.header {
+    padding-top: 71px;
+    padding-right: 183px;
+    padding-left: 168px;
+    padding-bottom: 92px;
+    align-content: center;
+    @extend %text;
+}
+
+  &_list{
+    @extend %flex;
+     display: flex;
+    align-items: center;
+    gap: 99px;
+    list-style-type: none;
+    text-transform: uppercase;
+    justify-content: center;
+  
+    gap: 99px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ 
+ &_link{
+    line-height: 18.66px;
+      font-weight: inherit;
+      font-size: 14px;
+      font-weight: 400;
+
+  
+}
+&:hover {
+    color: $accent-color;
+}

@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: var(--link-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 908px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 71px;
+  padding-right: 183px;
+  padding-left: 168px;
+  padding-bottom: 92px;
+  align-content: center;
+  font-size: 14px;
+}
+.header-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 99px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: #7D7D7D;
+  line-height: 18.66px;
+  font-weight: inherit;
+}
+
+.header-link:hover {
+  color: rgb(3, 169, 244);
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero {
+  padding-top: 0px;
+  padding-right: 147px;
+  padding-left: 147px;
+  padding-bottom: 66px;
+}
+
+.hero-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
+
+.hero-article {
+  width: 426px;
+  height: 542px;
+}
+
+.hero-image,
+.hero-subtitle {
+  margin-bottom: 32px;
+}
+
+.hero-item:nth-child(n+3) {
+  margin-top: 130px;
+}
+
+.hero-title {
+  margin-bottom: 44px;
+  font-size: 30px;
+  color: #626262;
+  line-height: 16.09px;
+  font-weight: 400;
+}
+
+.hero-subtitle {
+  color: #B4AD9E;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 18.66px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.hero-desk {
+  font-family: "Playfair Display", sans-serif;
+  color: #626262;
+  font-weight: 400;
+  line-height: 18.66px;
+}
+
+.hero-btn {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  color: #626262;
+  border-color: #626262;
+  border-width: 1px;
+  line-height: 18.66px;
+  font-weight: inherit;
+  cursor: pointer;
+}

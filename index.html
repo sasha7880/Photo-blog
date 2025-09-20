@@ -5,10 +5,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOTOBLOG</title>
+  <link href="./css/main.css" rel="stylesheet" />
   <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
-  <title>Title</title>
-  <link href="./css/style.css" rel="stylesheet" />
-  <link href="./css/reset.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet" />
   <link
@@ -43,7 +42,11 @@
         <ul class="hero-list">
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-one.jpg" alt="festival" class="hero-image" />
+              <picture> 
+                <source srcset="./photos/woman-festival@1x.png 1x, ./photos/woman-festival@2x.png 2x">
+                 <img src="./photos/woman-festival.png" alt="festival" class="hero-image" />
+                
+              </picture>
               <p class="hero-subtitle">LIFESTYLE</p>
               <h3 class="hero-title">More than just a music festival</h3>
               <p class="hero-desk">
@@ -56,7 +59,10 @@
           </li>
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-two.jpg" alt="coffee" class="hero-image" />
+              <picture>
+                <source srcset="./photos/coffee@1x.png 1x, ./photos.coffee@2x.png 2x">
+              <img src="./photos/coffee.png" alt="coffee" class="hero-image" />
+              </picture>
               <p class="hero-subtitle">LIFESTYLE</p>
               <h3 class="hero-title">Life tastes better with coffee</h3>
               <p class="hero-desk">
@@ -69,7 +75,10 @@
           </li>
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-three.jpg" alt="dream" class="hero-image" />
+              <picture>
+            <source srcset="./photos/bridge@1x.png 1x, ./photos.bridge@2x.png 2x">
+              <img src="./photos/bridge.png" alt="dream" class="hero-image" />
+              </picture>
               <p class="hero-subtitle">PHOTODIARY</p>
               <h3 class="hero-title">American dream</h3>
               <p class="hero-desk">
@@ -82,7 +91,11 @@
           </li>
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-four.jpg" alt="alps" class="hero-image" />
+              <picture>
+                <source srcset="./photos/man-alps@1x.png 1x, ./photos.man-alps@2x.png 2x">
+                <img src="./photos/man-alps.png" alt="alps" class="hero-image" />
+              </picture>
+              
               <p class="hero-subtitle">PHOTODIARY</p>
               <h3 class="hero-title">A day exploring the alps</h3>
               <p class="hero-desk">
@@ -95,7 +108,10 @@
           </li>
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-five.jpg" alt="songs" class="hero-image" />
+              <picture>
+                <source srcset="./photos/woman-run@1x.png 1x, ./photos.woman-run@2x.png 2x">
+              <img src="./photos/woman-run.png" alt="songs" class="hero-image" />
+              </picture>
               <p class="hero-subtitle">lifystyle</p>
               <h3 class="hero-title">Top 10 songs for running</h3>
               <p class="hero-desk">
@@ -108,7 +124,10 @@
           </li>
           <li class="hero-item">
             <article class="hero-article">
-              <img src="./photos/photo-six.jpg" alt="winter" class="hero-image" />
+              <picture>
+                  <source srcset="./photos/road@1x.png 1x, ./photos.road@2x.png 2x">
+              <img src="./photos/road.png" alt="winter" class="hero-image" />
+              </picture>
               <p class="hero-subtitle">lifystyle</p>
               <h3 class="hero-title">Cold winter days</h3>
               <p class="hero-desk">
@@ -120,7 +139,7 @@
             </article>
           </li>
         </ul>
-        <button type="submit" class="hero-btn">Load more</button>
+        <button type="submit" class="hero__btn">Load more</button>
       </div>
     </section>
   </main>
