@@ -1,5 +1,5 @@
-@import './utils/varibles';
-@import './base/reset';
-@import './base/base';
-@import './components/header';
-@import './components/hero';
+@use './utils/varibles';
+@use './base/base';
+@use './base/reset';
+@use './components/header';
+@use './components/hero';

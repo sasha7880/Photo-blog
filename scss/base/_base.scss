@@ -1,18 +1,17 @@
+@use '../utils/varibles' as *;
+
+a:hover {
+    color: $link-color;
+}
+
 body {
     font-family: $main-font;
     font-size: 14px;
     font-weight: 400;
-    background-color: $background-color;
+    background-color: white;
 }
 
 .container {
     width: 908px;
     margin: 0 auto;
-}
-* {
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
 }
