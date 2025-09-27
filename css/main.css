@@ -1,3 +1,19 @@
+a:hover {
+  color: rgb(3, 169, 244);
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: white;
+}
+
+.container {
+  width: 908px;
+  margin: 0 auto;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,118 +80,112 @@ a {
   text-decoration: none;
 }
 
-body {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  background-color: rgb(255, 255, 255);
-}
-
-.container {
-  width: 908px;
-  margin: 0 auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header {
-  padding-top: 71px;
-  padding-right: 183px;
-  padding-left: 168px;
-  padding-bottom: 92px;
-  align-content: center;
-  font-size: 14px;
-}
-.header-list {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 99px;
-  list-style-type: none;
-  text-transform: uppercase;
-}
-
-.header-link {
-  color: #7D7D7D;
-  line-height: 18.66px;
-  font-weight: inherit;
-}
-
-.header-link:hover {
-  color: rgb(3, 169, 244);
-}
-
-.hero-container {
-  display: flex;
-  flex-wrap: wrap;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero {
-  padding-top: 0px;
-  padding-right: 147px;
-  padding-left: 147px;
   padding-bottom: 66px;
 }
-
-.hero-list {
+.hero__list {
   display: flex;
-  list-style-type: none;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 94px;
+  justify-content: center;
+  gap: 62px;
+  row-gap: 130px;
 }
-
-.hero-article {
-  width: 426px;
-  height: 542px;
+.hero__item {
+  flex-basis: calc((100% - 62px) / 2);
 }
-
-.hero-image,
-.hero-subtitle {
+.hero__image {
   margin-bottom: 32px;
 }
-
-.hero-item:nth-child(n+3) {
-  margin-top: 130px;
-}
-
-.hero-title {
-  margin-bottom: 44px;
-  font-size: 30px;
-  color: #626262;
-  line-height: 16.09px;
-  font-weight: 400;
-}
-
-.hero-subtitle {
-  color: #B4AD9E;
+.hero__subtitle {
+  font-size: 14px;
+  margin-bottom: 32px;
+  color: rgb(180, 173, 158);
   font-family: "Ubuntu", sans-serif;
-  line-height: 18.66px;
   font-weight: 300;
   text-transform: uppercase;
 }
-
-.hero-desk {
-  font-family: "Playfair Display", sans-serif;
-  color: #626262;
+.hero__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: rgb(98, 98, 98);
   font-weight: 400;
-  line-height: 18.66px;
+}
+.hero__desc {
+  font-family: "Playfair Display", sans-serif;
+  color: rgb(98, 98, 98);
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.hero-btn {
-  margin: 0 auto;
-  background-color: rgb(255, 255, 255);
-  box-sizing: border-box;
-  color: #626262;
-  border-color: #626262;
+.btn {
+  font-family: inherit;
+  font-size: 14px;
+  background-color: none;
+  color: rgb(98, 98, 98);
+  border-color: rgb(98, 98, 98);
   border-width: 1px;
-  line-height: 18.66px;
   font-weight: inherit;
-  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 48px 21px 49px;
+  letter-spacing: 0;
+}
+
+.hero {
+  padding-bottom: 66px;
+}
+.hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+  justify-content: center;
+  gap: 62px;
+  row-gap: 130px;
+}
+.hero__item {
+  flex-basis: calc((100% - 62px) / 2);
+}
+.hero__image {
+  margin-bottom: 32px;
+}
+.hero__subtitle {
+  font-size: 14px;
+  margin-bottom: 32px;
+  color: rgb(180, 173, 158);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.hero__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+  font-weight: 400;
+}
+.hero__desc {
+  font-family: "Playfair Display", sans-serif;
+  color: rgb(98, 98, 98);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 14px;
+  background-color: none;
+  color: rgb(98, 98, 98);
+  border-color: rgb(98, 98, 98);
+  border-width: 1px;
+  font-weight: inherit;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 48px 21px 49px;
+  letter-spacing: 0;
 }
