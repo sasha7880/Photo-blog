@@ -1,59 +1,23 @@
-@use "../utils/varibles" as *;
+@use '../base/reset' as *;
+@use '../utils/variables' as *;
+@use '../base/base' as *;
 
-.hero {
-  padding-bottom: 66px;
+.header {
+	padding-top: 71px;
 
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 94px;
-    justify-content: center;
-    gap: 62px;
-    row-gap: 130px;
-  }
+	&__list {
+		display: flex;
+		gap: 100px;
+		list-style-type: none;
+		text-transform: uppercase;
+		justify-content: center;
+	}
 
-  &__item {
-    flex-basis: calc((100% - 62px) / 2);
-  }
-
-  &__image {
-    margin-bottom: 32px;
-  }
-
-  &__subtitle {
-    font-size: 14px;
-    margin-bottom: 32px;
-    color: $subtitle-color;
-    font-family: $secondary-font;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-
-  &__title {
-    margin-bottom: 40px;
-    font-size: 30px;
-    color: $article-text-color;
-    font-weight: 400;
-  }
-
-  &__desc {
-    font-family: $main-font;
-    color: $article-text-color;
-    font-weight: 400;
-    font-size: 14px;
-  }
-}
-
-.btn {
-  font-family: inherit;
-  font-size: 14px;
-  background-color: none;
-  color: $article-text-color;
-  border-color: $article-text-color;
-  border-width: 1px;
-  font-weight: inherit;
-  display: block;
-  margin: 0 auto;
-  padding: 20px 48px 21px 49px;
-  letter-spacing: 0;
+	&__link {
+		color: $paragraph-color;
+		font-weight: inherit;
+		&:hover {
+			color: $link-color;
+		}
+	}
 }

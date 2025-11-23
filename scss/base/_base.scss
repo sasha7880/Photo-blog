@@ -1,17 +1,25 @@
-@use '../utils/varibles' as *;
-
-a:hover {
-    color: $link-color;
-}
+/* _base.scss */
+@use '../utils/variables' as *;
 
 body {
-    font-family: $main-font;
-    font-size: 14px;
-    font-weight: 400;
-    background-color: white;
+	line-height: 1;
+	font-family: $main-font;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: $background-color;
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+}
+
+a {
+	text-decoration: none;
 }
 
 .container {
-    width: 908px;
-    margin: 0 auto;
+	width: 908px;
+	margin: 0 auto;
 }
