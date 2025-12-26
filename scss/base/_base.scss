@@ -1,8 +1,7 @@
-/* _base.scss */
 @use '../utils/variables' as *;
 
 body {
-	line-height: 1;
+	
 	font-family: $main-font;
 	font-size: 14px;
 	font-weight: 400;
